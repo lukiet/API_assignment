@@ -1,5 +1,5 @@
-# You are building a transport fleet management system. The fleet consists of different types of vehicles (cars, trucks, and motorcycles). Each vehicle has a registration number, make, and model. Cars have a number of seats, trucks have a cargo capacity, and motorcycles have an engine capacity.
 # Create a base Vehicle class with attributes registration_number, make, and model.
+
 class Vehicle:
     def __init__(self, registration_number, make, model):
         self.registration_number = registration_number
